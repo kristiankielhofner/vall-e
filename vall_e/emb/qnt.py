@@ -1,3 +1,4 @@
+from __future__ import annotations
 import argparse
 import random
 from functools import lru_cache as cache
