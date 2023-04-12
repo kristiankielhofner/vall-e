@@ -1,7 +1,8 @@
 import argparse
 import random
 import string
-from functools import cache
+from functools import lru_cache as cache
+cache(maxsize=None)
 from pathlib import Path
 
 import torch

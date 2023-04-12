@@ -1,6 +1,7 @@
 import argparse
 import random
-from functools import cache
+from functools import lru_cache as cache
+cache(maxsize=None)
 from pathlib import Path
 
 import soundfile
